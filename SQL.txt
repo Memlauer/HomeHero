@@ -1,0 +1,19 @@
+hasło do bazy danych ustawione jako: rootroot
+
+SQL:
+
+create database homehero;
+
+use homehero;
+
+
+CREATE TABLE user (
+login VARCHAR(20),
+password VARCHAR(20));
+
+
+CREATE TABLE score (
+points int(100), 
+user VARCHAR(20), 
+task VARCHARCH(20),
+date TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
